@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 2.8)
+add_definitions(-std=c++11)
+project(demo)
+include_directories("/usr/local/eigen3")
+add_executable(demo main.cpp)
